@@ -1,39 +1,53 @@
 # 📚 **text-rewriter-python**
 
-welcome to the text-rewriter-python repository! this open-source collaboration is designed for anyone to fork and improve.
+> ⚠️ **this repository is archived and no longer maintained.**  
+> no further updates will be made. feel free to fork and build upon it.
 
-**description:**
-the `text-rewriter-python` repository is a python project that provides a text rewriting functionality. it aims to create a python tool that can rewrite ai-generated text. by following the provided steps, you can install the tool, import the necessary libraries (`nltk` and `textblob`), and utilize the `humanize_text` function to rewrite the ai-generated text into a more human-like version.
+---
 
-**contributions:**
-we encourage developers and enthusiasts to contribute to this project in any way they can. whether it's improving the text rewriting algorithms, enhancing the user interface, or adding new features, your contributions are highly appreciated! to contribute, you can fork the repository and submit a pull request with your changes.
+## 🔍 overview
 
-**license:**
-this project is licensed under the mit license. see the license file for details.
+`text-rewriter-python` is a simple python tool that rewrites ai-generated text into more human-like language. it uses [`nltk`](https://www.nltk.org/) and [`textblob`](https://textblob.readthedocs.io/en/dev/) for natural language processing.
 
-this tool utilizes the natural language toolkit (nltk) and textblob libraries, which make natural language processing in python accessible to everyone. we extend our gratitude to the developers of these libraries for their valuable contributions.
+---
 
-repository structure:
-- readme.md
-- text_rewriter.py
+## 🛠️ getting started
 
-to get started with the tool, follow these steps:
+1. make sure you have python 3 installed.
+2. clone or download this repo.
+3. install the required libraries:
 
-1. install python 3 on your computer if it's not already installed.
-2. download or clone the repository.
-3. install the required libraries by running `pip install nltk textblob` in your terminal.
-4. open the python file (`text_rewriter.py`) in your preferred code editor.
-5. import the `nltk` and `textblob` libraries at the beginning of the file.
-6. copy and paste the `humanize_text` function from the code snippet into your file.
-7. call the `humanize_text` function with the ai-generated text as the argument.
-8. the function will return the humanized text.
+   ```bash
+   pip install nltk textblob
+   ```
 
-here's an example of how to use the tool:
+4. open `text_rewriter.py` in your editor.
+5. use the `humanize_text` function to rewrite ai-generated text.
 
-```
-$ python3 text_rewriter.py
-enter ai-generated text: the quick brown fox jumped over the lazy dog.
+## example
+
+```pgsql
+$ python3 text_rewriter.py  
+enter ai-generated text: the quick brown fox jumped over the lazy dog.  
 the amazing brown fox really jumped over the lazy dog.
 ```
 
-we appreciate your interest and contributions to the `text-rewriter-python` project. feel free to reach out if you have any questions or need further assistance.
+## 🧠 how it works
+
+the core function `humanize_text` leverages basic nlp techniques to rephrase input text, aiming for more natural phrasing. it’s an experimental tool built as a starting point for further enhancements.
+
+## 🤝 contributions
+
+this repo is no longer maintained, but contributions via forks are always welcome. if you’d like to build on this, go ahead and fork the project.
+
+## 📂 repo structure
+
+```plain
+.
+├── readme.md  
+└── text_rewriter.py
+```
+
+## 📄 license
+
+licensed under the MIT license.
